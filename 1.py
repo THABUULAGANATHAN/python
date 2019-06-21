@@ -4,4 +4,4 @@ if(random>0):
 elif(random<0):
   print("Negative")
 else:
-  print("zero")
+  print("Zero")
