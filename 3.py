@@ -1,9 +1,9 @@
 import sys
-vow='aeiouAEIOU'
+vow1='aeiouAEIOU'
 t='BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz'
 c=input()
-if c in vow:
-  print("Vowe1")
+if c in vow1:
+  print("Vowel")
 elif c in t:
   print("Consonant")
 else:
