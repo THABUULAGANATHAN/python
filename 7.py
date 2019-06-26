@@ -1,3 +1,5 @@
-x=int(input())
-for i in range(1,x+1):
-  print("Hello")
+tk=int(input())
+def hello(x,tk):
+  for i in range(0,tk):
+    print(x)
+hello("HELLO",tk)    
