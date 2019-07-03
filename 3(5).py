@@ -1,0 +1,5 @@
+checkk1=int(input())
+validd1=list(map(int,input().split()[:checkk1]))
+validd1.sort()
+quee1=int((len(validd1))/2)
+print(validd1[quee1])
