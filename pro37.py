@@ -14,7 +14,7 @@ while(it<len(lt)):
     else:
         if(tt>lt[it+1] and tt>lt[it-1]):
             ct=ct+1
-        elif(tt<l[it-1] and tt<l[it+1]):
+        elif(tt<lt[it-1] and tt<lt[it+1]):
             ct=ct+1
     it=it+1
 print(ct)
