@@ -1,5 +1,5 @@
-k1=input()
-for v in range(len(k1)):
-  if(k1[v] < k1[v+1]):
-    print(k1[v+1:])
+ktr1=input()
+for vt in range(len(ktr1)):
+  if(ktr1[vt] < ktr1[vt+1]):
+    print(ktr1[vt+1:])
     break
