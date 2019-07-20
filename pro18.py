@@ -4,7 +4,7 @@ for _ in range(aprt):
     l1t.append(input())
 for ic in range(len(l1t)):
     if('0' in l1t[ic]):
-        l1t[ic]=l1[ic].replace('0','')
+        l1t[ic]=l1t[ic].replace('0','')
     l1t[ic]=l1t[ic].replace(' ','')
 lengths=[]
 for ic in l1t:
