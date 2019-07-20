@@ -9,10 +9,10 @@ while(it<len(lt)):
         if(len(lt)==1):
             ct=1 
             break
-    elif(i==len(lt)-1):
+    elif(it==len(lt)-1):
         ct=ct
     else:
-        if(tt>l[it+1] and tt>l[it-1]):
+        if(tt>lt[it+1] and tt>lt[it-1]):
             ct=ct+1
         elif(tt<l[it-1] and tt<l[it+1]):
             ct=ct+1
