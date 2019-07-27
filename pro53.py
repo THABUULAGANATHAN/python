@@ -1,10 +1,10 @@
 import sys, string, math
-siss = input()
-siss = siss.lower()
-son = string.ascii_lowercase
+sist = input()
+sist = sist.lower()
+sont = string.ascii_lowercase
 
-for c in son :
-    if c not in siss :
+for c in sont :
+    if c not in sist :
         print('no')
         sys.exit()
 print('yes')
