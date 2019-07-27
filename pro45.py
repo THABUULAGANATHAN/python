@@ -13,6 +13,6 @@ for cust in samt[::-1] :
 sopt = '0'*kimt + samt
 
 if sopt == sopt[::-1] :
-    print('no')
-else :
     print('yes')
+else :
+    print('no')
