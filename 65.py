@@ -1,8 +1,8 @@
 bht,jst=map(int,input().split())
 lisat=list(map(int,input().split()))[:bht]
-rant=int(input())
+ran=int(input())
 surt=(sum(lisat)-lisat[jst])//2
-if (surt==rant):
+if (surt==ran):
     print("Bon Appetit")
 else:
-    print(abst(surt-rant))
+    print(abst(surt-ran))
